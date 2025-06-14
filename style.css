@@ -1,0 +1,444 @@
+*{
+    font-family: "Playfair Display SC", serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logo{
+    width: 100px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+
+
+/* navbar */
+
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.navbar .nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #f8d7a0 !important;
+}
+
+/* carousel */
+
+#carouselExampleCaptions{
+    background-color: #213448;
+
+}
+
+.carousel-item img{
+    filter: blur(3px);
+}
+
+.carousel-caption {
+    top: 55%;
+    transform: translateY(-50%);
+    bottom: auto;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.carousel-caption h5 {
+    font-family: "Alex Brush", cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #f8d7a0;
+}
+
+.carousel-caption h1 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #f8d7a0;
+}
+.carousel-caption p {
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* about */
+
+#about{
+    background-color: #0c1314;
+}
+
+.mainhead{
+    padding-top: 60px;
+    color: #f8d7a0;
+}
+
+.mainhead h5 {
+    font-family: "Alex Brush", cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f8d7a0;
+    letter-spacing: 5px;
+
+}
+
+.mainhead h1 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #f8d7a0;
+    letter-spacing: 5px;
+
+}
+
+.abt-img{
+    width: 100%;
+    height: 80%; 
+}
+
+/* chef- opinins */
+
+#chef-opinions {
+    background-color: #152224;
+    color: #ffffff;
+}
+
+#chef-opinions .quote {
+    padding: 50px;
+    border-radius: 8px;
+    margin: 0 10px;
+}
+
+#chef-opinions h2 {
+    font-family: "Playfair Display SC", serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f8d7a0;
+}
+
+#chef-opinions p {
+    font-family: "Moon Dance", cursive;    
+    font-size: 3rem;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+/* menu */
+
+#menu{
+    background-color: #0c1314;
+}
+
+.menu-img{
+    width: 100%;
+    height: 80%; 
+}
+
+#menu h3{
+        color: #f8d7a0;
+
+}
+
+.menu-card .menu-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.menu-card:hover .menu-overlay {
+  opacity: 1;
+}
+
+.menu-overlay ul li {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+/* from menu */
+
+#from-menu {
+    background-color: #152224;
+    color: #f5f5f5;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.menu-item h5 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    color: #f8d7a0;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #f8d7a0;
+}
+
+.menu-item p {
+    margin-bottom: 0.4rem;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.menu-item hr {
+    border-top: 1px solid #ffc35b;
+    margin: 0.5rem 0 1.2rem 0;
+}
+
+#from-menu .btn.book-now-btn {
+  color: #f8d7a0;
+  border: 2px solid #f8d7a0;
+  background-color: transparent;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#from-menu .btn.book-now-btn:hover {
+  background-color: #f8d7a0;
+  color: #152224;
+}
+/* recomentation */
+
+#recommendations {
+    background-color: #152224;
+    color: #f5f5f5;
+}
+
+.rec-card {
+    flex-wrap: wrap;
+}
+
+.rec-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.rec-content h5 {
+    color: #f8d7a0;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+.rec-content p {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.rec-image {
+    flex-shrink: 0;
+}
+
+.rec-image img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* food gallery */
+
+#food-gallery {
+    background-color: #0c1314;
+    padding: 60px 20px;
+    color: #fff;
+}
+
+.gallery-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-card img {
+    transition: transform 0.4s ease;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallery-card:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-card .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(21, 34, 36, 0.8);
+    color: #f8d7a0;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover .overlay {
+    transform: translateY(0);
+}
+
+.gallery-card .overlay h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* book a table */
+#book-table {
+  background-color: #152224;
+  color: #f8d7a0;
+}
+
+#book-table .form-label {
+  color: #f8d7a0;
+}
+
+#book-table .form-control {
+  background-color: transparent;
+  border: 2px solid #f8d7a0;
+  color: #f8d7a0;
+}
+
+#book-table .form-control::placeholder {
+  color: #f8d7a0;
+  opacity: 0.6;
+}
+
+#book-table .btn.book-now-btn {
+  color: #f8d7a0;
+  border: 2px solid #f8d7a0;
+  background-color: transparent;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#book-table .btn.book-now-btn:hover {
+  background-color: #f8d7a0;
+  color: #152224;
+}
+/* footer */
+.footer {
+    background-color: #0c1314;
+  color: #f8d7a0;
+}
+
+.footer-logo {
+  max-width: 100px;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+}
+
+.footer .social-icons a:hover {
+  color: #f8d7a0;
+}
+
+/* back to top */
+html {
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #f8d7a0;
+  color: #152224;
+  border-radius: 50%;
+  padding: 15px 16px;
+  font-size: 20px;
+  z-index: 1000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #e6c282;
+}
+
+
+
+/* media query */
+/* RESPONSIVE FIXES */
+
+/* About Images */
+@media (max-width: 768px) {
+  .abt-img {
+    margin-bottom: 1rem;
+    height: auto;
+  }
+}
+
+/* Chef Carousel and Image */
+@media (max-width: 768px) {
+  #chef-opinions .quote {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .ch-img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+/* Recommendation Cards */
+@media (max-width: 768px) {
+  .rec-content h5 {
+    font-size: 1.8rem;
+  }
+
+  .rec-content p {
+    font-size: 1rem;
+  }
+
+  .rec-image img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Gallery Image Height */
+@media (max-width: 576px) {
+  .gallery-card img {
+    height: 180px;
+  }
+}
+
+/* From Menu section padding */
+@media (max-width: 768px) {
+  #from-menu {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Form Fields */
+@media (max-width: 768px) {
+  #book-table .form-control {
+    font-size: 0.9rem;
+  }
+}
